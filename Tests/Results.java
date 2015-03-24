@@ -36,7 +36,7 @@ public class Results {
 
     private void setString() {
         this.inputString = this.inputString.replace(" ", "");
-        this.string = inputString;
+        this.string = this.inputString;
         while (this.string.length() < this.numOfQuestions) {
             this.string += this.inputString;
         }
