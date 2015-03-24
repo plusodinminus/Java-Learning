@@ -19,10 +19,10 @@ public class Results {
         this.inputString = inputString;
         this.setString();
         this.setGroupOfLetters();
-        this.generateAnswers();
+        this.setAnswers();
     }
 
-    private void generateAnswers() {
+    private void setAnswers() {
         for (int i = 0; i < this.string.length(); i++) {
             for (int j = 0; j < this.groupOfLetters.length; j++) {
                 char letter = this.string.charAt(i);
